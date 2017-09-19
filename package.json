@@ -92,8 +92,7 @@
   "files": [
     "dist",
     "tsconfig.json",
-    "tsconfig.aot.json",
-    "index.ts"
+    "tsconfig.aot.json"
   ],
   "exclude": [
     "**/*.spec.ts"
