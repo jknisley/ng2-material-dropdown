@@ -10,7 +10,7 @@
     "start": "npm run server",
     "test": "karma start karma.conf.js --single-run",
     "ngc": "ngc -p ./tsconfig.aot.json",
-    "moveassets": "rsync -a --include='*.scss' --include='*.html' --include='*/' --exclude='*' ./src/ ./dist/src"
+    "moveassets": "rsync -a --include='*.scss' --include='*.html' --include='*/' --exclude='*' ./src/ ./dist/"
   },
   "author": {
     "name": "Giancarlo Buomprisco",
@@ -86,7 +86,9 @@
     "url": "https://github.com/Gbuomprisco/ng2-material-dropdown/issues"
   },
   "homepage": "https://github.com/Gbuomprisco/ng2-material-dropdown",
-  "main": "./dist/ng2-dropdown.bundle.js",
+  "main": "dist/ng2-dropdown.bundle.js",
+  "module": "dist/modules/ng2-dropdown.module.js",
+  "typings": "dist/modules/ng2-dropdown.module.d.ts",
   "files": [
     "dist",
     "tsconfig.json",

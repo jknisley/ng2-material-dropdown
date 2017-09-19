@@ -13,7 +13,7 @@
     "inlineSources": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    "rootDir": ".",
+    "rootDir": "src",
     "types": ["node", "jasmine"],
     "lib": ["dom", "es2015"],
     "suppressImplicitAnyIndexErrors": true
@@ -25,9 +25,6 @@
     "genDir": "./ngfactory",
     "strictMetadataEmit": true
   },
-  "files": [
-    "./src/modules/ng2-dropdown.module.ts"
-  ],
   "include": [
     "src"
   ],

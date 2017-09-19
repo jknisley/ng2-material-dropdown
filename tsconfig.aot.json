@@ -13,7 +13,7 @@
     "inlineSources": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    "rootDir": ".",
+    "rootDir": "src",
     "types": ["node", "es6-shim", "es6-collections", "jasmine"]
   },
   "awesomeTypescriptLoaderOptions": {
@@ -23,8 +23,8 @@
     "genDir": "factories",
     "strictMetadataEmit": true
   },
-  "files": [
-    "src/modules/ng2-dropdown.module.ts"
+  "include": [
+    "src"
   ],
   "exclude": [
     "node_modules",
